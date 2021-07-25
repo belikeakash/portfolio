@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+.header {
+  background-color: rgb(0, 0, 0);
+}
+/* *{
+  background-color: black;
+} */
+
+.main {
+  display: flex;
+  font-size: 18px;
+  /* margin-top: 10px; */
+  padding-top: 18px;
+  padding-bottom: 10px;
+
+  color: white;
+}
+
+.info_4{
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.info-header {
+  margin-right: 5%;
+  width: 40%;
+  display: flex;
+  font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo  {
+  width: 50%;
+  margin-left: 5%;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  color:rgb(255, 0, 85) ;
+}
+.logo>a{
+  text-decoration: none;
+  color:rgb(255, 0, 85) ;
+}
+.logo > a:active{
+  color: aqua;
+}
+
+.header_span{
+    color: teal;
+    font-weight: 600;
+}
+.app{
+    color: lightgrey;
+    font-weight: 500;
+    transition: all 1s;
+}
+.app:hover{
+    color: teal;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 800px){
+  .logo{
+    font-size: 16px;
+  }
+  .info-header{
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .logo{
+    font-size: 14px;
+  }
+  .info-header{
+    font-size: 10px;
+  }
+}
