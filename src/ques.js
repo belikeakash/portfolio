@@ -9,7 +9,7 @@ const questions = [
     id: 2,
     title: 'What do I do ?',
     info:
-      "I'm an undergraduate at Institute of Engineering and Technology, Lucknow and persuing my Batchelors of Technology in Computer Science major",
+      "I'm an undergraduate at Institute of Engineering and Technology, Lucknow and persuing my Bachelors of Technology in Computer Science major",
   },
   {
     id: 3,
